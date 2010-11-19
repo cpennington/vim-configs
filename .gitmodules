@@ -10,3 +10,6 @@
 [submodule "bundle/zenburn"]
 	path = bundle/zenburn
 	url = https://github.com/vim-scripts/Zenburn.git
+[submodule "vim-markdown"]
+	path = bundle/markdown
+	url = https://github.com/tpope/vim-markdown.git
