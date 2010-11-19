@@ -13,3 +13,9 @@
 [submodule "vim-markdown"]
 	path = bundle/markdown
 	url = https://github.com/tpope/vim-markdown.git
+[submodule "bundle/mako-indent"]
+	path = bundle/mako-indent
+	url = https://github.com/vim-scripts/mako.vim--Torborg.git
+[submodule "bundle/mako-highlight"]
+	path = bundle/mako-highlight
+	url = https://github.com/vim-scripts/mako.vim.git
