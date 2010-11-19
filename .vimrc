@@ -24,4 +24,6 @@ set hlsearch
 set ignorecase
 set smartcase
 
+nmap <leader>nt :NERDTreeToggle<CR>
+
 au BufRead *-sup.*-mode set ft=mail

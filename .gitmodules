@@ -28,3 +28,6 @@
 [submodule "bundle/haskell-conceal"]
 	path = bundle/haskell-conceal
 	url = https://github.com/vim-scripts/Haskell-Conceal.git
+[submodule "bundle/nerdtree"]
+	path = bundle/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
