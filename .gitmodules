@@ -7,3 +7,6 @@
 [submodule "bundle/fugative"]
 	path = bundle/fugative
 	url = https://github.com/tpope/vim-fugitive.git
+[submodule "bundle/zenburn"]
+	path = bundle/zenburn
+	url = https://github.com/vim-scripts/Zenburn.git
