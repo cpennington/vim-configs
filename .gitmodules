@@ -25,3 +25,6 @@
 [submodule "bundle/cute-python"]
 	path = bundle/cute-python
 	url = https://github.com/ehamberg/vim-cute-python.git
+[submodule "bundle/haskell-conceal"]
+	path = bundle/haskell-conceal
+	url = https://github.com/vim-scripts/Haskell-Conceal.git
