@@ -24,6 +24,7 @@ set hlsearch
 set ignorecase
 set smartcase
 set laststatus=2
+set backspace=indent,eol,start
 
 set statusline=%<%f\ %h%m%r%#warningmsg#%{SyntasticStatuslineFlag()}%{fugitive#statusline()}%*%=%-14.(%l,%c%V%)\ %P
 
