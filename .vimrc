@@ -24,6 +24,10 @@ set hlsearch
 set ignorecase
 set smartcase
 
+" syntastic options
+let g:syntastic_enable_signs=1
+
+" custom mappings
 nmap <leader>nt :NERDTreeToggle<CR>
 
 au BufRead *-sup.*-mode set ft=mail
