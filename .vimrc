@@ -4,6 +4,8 @@ call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 
 set nocompatible
+set backup backupdir=~/.vim/backup
+set directory=~/.vim/tmp
 let g:zenburn_high_Contrast=1
 colorscheme zenburn
 set tabstop=4
