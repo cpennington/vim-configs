@@ -1,3 +1,8 @@
+filetype off
+let g:pathogen_disabled = ["pathogen"]
+call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
+
 set nocompatible
 let g:zenburn_high_Contrast=1
 colorscheme zenburn
