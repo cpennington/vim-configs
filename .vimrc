@@ -25,6 +25,7 @@ set ignorecase
 set smartcase
 set laststatus=2
 set backspace=indent,eol,start
+set listchars=eol:¶,tab:»=,trail:·,extends:»,precedes:« list
 
 set statusline=%<%f\ %h%m%r%#warningmsg#%{SyntasticStatuslineFlag()}%{fugitive#statusline()}%*%=%-14.(%l,%c%V%)\ %P
 
@@ -33,5 +34,8 @@ let g:syntastic_enable_signs=1
 
 " custom mappings
 nmap <leader>nt :NERDTreeToggle<CR>
+
+" Run DetectIndent after loading a buffer
+:autocmd BufReadPost * :DetectIndent 
 
 au BufRead *-sup.*-mode set ft=mail
