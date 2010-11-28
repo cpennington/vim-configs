@@ -35,9 +35,6 @@ let g:syntastic_enable_signs=1
 " custom mappings
 nmap <leader>nt :NERDTreeToggle<CR>
 
-" Run DetectIndent after loading a buffer
-:autocmd BufReadPost * :DetectIndent 
-
 au BufRead *-sup.*-mode set ft=mail
 
 au BufRead,BufNewFile *.json setfiletype json
