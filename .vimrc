@@ -39,3 +39,5 @@ nmap <leader>nt :NERDTreeToggle<CR>
 :autocmd BufReadPost * :DetectIndent 
 
 au BufRead *-sup.*-mode set ft=mail
+
+au BufRead,BufNewFile *.json setfiletype json
