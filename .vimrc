@@ -34,6 +34,7 @@ let g:syntastic_enable_signs=1
 
 " custom mappings
 nmap <leader>nt :NERDTreeToggle<CR>
+nmap <leader>e :Errors<CR>
 
 au BufRead *-sup.*-mode set ft=mail
 
