@@ -25,6 +25,7 @@ set smartcase
 set laststatus=2
 set backspace=indent,eol,start
 set listchars=eol:¶,tab:»=,trail:·,extends:»,precedes:« list
+set wildignore+=*.class,*.pyc
 
 set statusline=%<%f\ %h%m%r%#warningmsg#%{SyntasticStatuslineFlag()}%{fugitive#statusline()}%*%=%-14.(%l,%c%V%)\ %P
 
