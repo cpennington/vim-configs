@@ -28,6 +28,9 @@ set listchars=eol:¶,tab:»=,trail:·,extends:»,precedes:« list
 
 set statusline=%<%f\ %h%m%r%#warningmsg#%{SyntasticStatuslineFlag()}%{fugitive#statusline()}%*%=%-14.(%l,%c%V%)\ %P
 
+" ack options
+let g:ackprg="ack-grep -H --nocolor --nogroup --column"
+
 " syntastic options
 let g:syntastic_enable_signs=1
 

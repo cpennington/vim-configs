@@ -43,3 +43,9 @@
 [submodule "bundle/command-t"]
 	path = bundle/command-t
 	url = git://git.wincent.com/command-t.git
+[submodule "bundle/ack"]
+	path = bundle/ack
+	url = https://github.com/mileszs/ack.vim.git
+[submodule "bundle/mako"]
+	path = bundle/mako
+	url = https://github.com/vim-scripts/mako.vim.git
