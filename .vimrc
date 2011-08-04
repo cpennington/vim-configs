@@ -42,3 +42,4 @@ nmap <leader>e :Errors<CR>
 au BufRead *-sup.*-mode set ft=mail
 
 au BufRead,BufNewFile *.json setfiletype json
+au BufRead,BufNewFile *.mako setfiletype mako
