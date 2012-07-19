@@ -41,8 +41,6 @@ let g:syntastic_python_checker_args='--ignore=E501'
 nmap <leader>nt :NERDTreeToggle<CR>
 nmap <leader>e :Errors<CR>
 
-imap <Tab> <C-P>
-
 au BufRead *-sup.*-mode set ft=mail
 
 au BufRead,BufNewFile *.json setfiletype json
