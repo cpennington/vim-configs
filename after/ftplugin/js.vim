@@ -1,2 +1,1 @@
-setlocal shiftwidth=2
-setlocal tabstop=2
+tab-width-2.vim
